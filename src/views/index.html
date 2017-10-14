@@ -1,1 +1,16 @@
-sdsdds
+
+<table class="table table-primary">
+    <thead>
+        <th>ID</th>
+        <th>Street</th>
+    </thead>
+    <tbody>
+<% records.map(item=>{ %>
+    <tr>
+        <td><%=item['id']%></td>
+        <td><%=item['street']%></td>
+    </tr>
+<% }) %> 
+    </tbody>
+</table>
+<%= records.length %>

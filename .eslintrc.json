@@ -29,6 +29,7 @@
         ],
         "import/prefer-default-export": "off",
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-        "func-names": "off"
+        "func-names": "off",
+        "no-param-reassign": 0
     }
 }
